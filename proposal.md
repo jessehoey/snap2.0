@@ -25,7 +25,7 @@ New SNAP interface is expect to have unified interface links to physical sensors
 	* Change the status, probability, and transactions
 
 * Logic validation
-	* Environment is possible to exists
+	* Environment is possible to exist
 	* User have the ability to reach the target
 	* Sensors can provide enough information for system to schedule
 	* Other validations
@@ -46,7 +46,7 @@ The minimum functionalities of this module should include the followings:
 
 #### Display
 * Diagram represent in real world objects, and human objects, as media care personal
-* Add and modify objects as developer admin persepetive
+* Add and modify objects as developer admin perspective
 * Response from devices
 	* Online status
 	* Response status
@@ -72,7 +72,7 @@ In order to control the devices, the system use HTTP/HTTPs to:
 >  The main reason of the choice is http(s) protocol can be recognized and transferred regardless of the platforms and resources available, this allows to transfer our logic easily between different platforms with little or no change of the backend. For example, if we want to change the control from web to mobile, since mobile platform also use http requests as communication formats, it only need modification in the front end. 
 
 #### Simulation
-It should be able to provide testing environment disregard of the lack of hardware environment. The simulation environments should represent physical objects (non-human objects), sensor objects, and human objects in real world, and have exactly same behaviours as real worlds objects.
+It should be able to provide testing environment disregard of the lack of hardware environment. The simulation environments should represent physical objects (non-human objects), sensor objects, and human objects in real world, and have exactly same behaviours as real world objects.
 
 * Specify physical object in the environment, and all the status it can have
 * Specify initial status of all physical objects
